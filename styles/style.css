@@ -50,23 +50,94 @@ section{
     color: #fff;    
 }
 
+.donate-today-section{
+    text-align: center;
+}
 .section-title-left{
     font-size: 45px;
     font-weight: 700;
-    margin: 20px 0 20px 0;
+    margin: 100px 0 20px 0;
     text-align: left;
 }
 
 .section-title-right{
     font-size: 45px;
     font-weight: 700;
-    margin: 20px 0 20px 0;
+    margin: 100px 0 20px 0;
     text-align: right;
 }
 
 .section-title-center{
     font-size: 45px;
     font-weight: 700;
-    margin: 20px 0 20px 0;
+    margin: 100px 0 20px 0;
+    text-align: center;
+}
+
+.section-sub-title-center{
+    font-size: 18px;
+    font-weight: 400px;
+    color: #707070;
+    text-align: center;
+}
+
+.section-sub-title-right{
+    font-size: 18px;
+    font-weight: 400px;
+    color: #707070;
+    text-align: right;
+}
+
+.section-sub-title-left{
+    font-size: 18px;
+    font-weight: 400px;
+    color: #707070;
+    text-align: left;
+}
+
+.button-section{
+    margin-top: 50px;
+    display: flex;
+    max-width: 1000px;
+}
+
+.button-section .ammount-button{
+    height: 123px;
+    padding: 45px 25px;
+    font-size: 30px;
+    font-weight: 900px;
+    color: #707070;
+    border: none;
+    border-radius: 10px;
+}
+
+.button-section .ammount-button:hover{
+    height: 123px;
+    padding: 45px 25px;
+    font-size: 30px;
+    font-weight: 900px;
+    color: #FF5959;
+    border: 2px solid #FF5959;
+    border-radius: 10px;
+}
+
+.custom-ammount{
+    margin: 50px 0px 20px 0;
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 400px;
+    color: #B3B3B3;
+    border: none;
+    border-bottom: 2px solid #B3B3B3;
+
+}
+
+.custom-ammount:click{
+    border-bottom: 2px solid 
+}
+
+.donate-today-section .btn-primary{
     text-align: center;
 }
